@@ -1,0 +1,36 @@
+{
+    "name": "yulinzhihou\/think-whoops",
+    "description": "A debugger for thinkphp 6.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yulinzhihou",
+            "email": "yulinzhihou@163.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "thinkphp",
+        "whoops"
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "topthink/framework": "6.1.*",
+        "filp/whoops": "^2.4"
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "think\\Whoops\\WhoopsService"
+            ],
+            "config": {
+                "whoops": "config/config.php"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\Whoops\\": "src"
+        }
+    }
+}
