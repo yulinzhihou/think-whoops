@@ -1,6 +1,6 @@
 {
     "name": "yulinzhihou\/think-whoops",
-    "description": "A debugger for thinkphp 6.1.* | thinkphp 8.0.*",
+    "description": "A debugger for thinkphp 6.1.* || thinkphp 8.0.*",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "topthink/framework": "6.1.*|8.0.*",
+        "topthink/framework": "6.1.* || 8.0.*",
         "filp/whoops": "^2.4"
     },
     "extra": {
